@@ -1,0 +1,12 @@
+/home/ahmed/Desktop/11-usart/target/rls/debug/deps/proc_macro2-fc252b35a7a96a97.rmeta: /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/lib.rs /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/marker.rs /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/parse.rs /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/detection.rs /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/fallback.rs /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/wrapper.rs
+
+/home/ahmed/Desktop/11-usart/target/rls/debug/deps/libproc_macro2-fc252b35a7a96a97.rlib: /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/lib.rs /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/marker.rs /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/parse.rs /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/detection.rs /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/fallback.rs /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/wrapper.rs
+
+/home/ahmed/Desktop/11-usart/target/rls/debug/deps/proc_macro2-fc252b35a7a96a97.d: /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/lib.rs /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/marker.rs /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/parse.rs /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/detection.rs /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/fallback.rs /home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/wrapper.rs
+
+/home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/lib.rs:
+/home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/marker.rs:
+/home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/parse.rs:
+/home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/detection.rs:
+/home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/fallback.rs:
+/home/ahmed/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-1.0.23/src/wrapper.rs:

@@ -1,0 +1,1 @@
+{"rustc":15479600521011547909,"features":"[]","target":7449925333467894900,"profile":8568081267110557927,"path":7674663762530653877,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"thumbv7em-none-eabihf/release/.fingerprint/nmea0183-4b2839a444cb56bb/dep-lib-nmea0183"}}],"rustflags":["-C","link-arg=-Tlink.x"],"metadata":14778561972677207229}

@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/ahmed/Desktop/11-usart/target/rls/thumbv7em-none-eabihf/debug/build/typenum-c2114841d287042c/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/ahmed/Desktop/11-usart/target/rls/thumbv7em-none-eabihf/debug/build/typenum-c2114841d287042c/out/op.rs

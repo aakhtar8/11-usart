@@ -1,0 +1,1 @@
+{"rustc":15479600521011547909,"features":"[\"default\", \"stm32f303\"]","target":10429514197457385088,"profile":8568081267110557927,"path":5813684240024888617,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/stm32f3-b099c991a61208bc/dep-build-script-build-script-build"}}],"rustflags":[],"metadata":17150794904749568540}

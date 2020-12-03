@@ -1,0 +1,22 @@
+[package]
+authors = ["Jorge Aparicio <jorge@japaric.io>"]
+edition = "2018"
+name = "usart"
+version = "0.1.0"
+
+[dependencies]
+nmea0183 = "0.2.3"
+# embedded-hal = "1.0.0-alpha.4"
+
+[dependencies.aux11]
+path = "auxiliary"
+cortex-m = "0.6.3"
+
+features = ["adapter"]
+
+# enable this if you are going to use an external serial adapter
+
+
+[dependencies.heapless]
+default-features = false
+version = "0.3.7"
