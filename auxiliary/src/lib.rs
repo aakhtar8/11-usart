@@ -5,7 +5,7 @@
 #[allow(unused_extern_crates)] // NOTE(allow) bug rust-lang/rust53964
 extern crate panic_itm; // panic handler
 
-pub use cortex_m::{asm::bkpt, iprint, iprintln, peripheral::ITM};
+pub use cortex_m::{asm::{bkpt, nop}, iprint, iprintln, peripheral::ITM};
 pub use cortex_m_rt::entry;
 use stm32f3xx_hal::{pac, prelude::*};
 pub use stm32f3xx_hal::{pac::usart1, prelude::*, serial::Serial, time::MonoTimer};

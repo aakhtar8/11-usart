@@ -65,10 +65,22 @@ fn main() -> ! {
                     }                    
                 }
                 }
-            //let ms = 50_u16;
-            //delay.delay_ms(ms);
+            // waiting via for loop
+            let ms = 50_u16;        // this is not exactly an ms, but proportional
+            delay(ms);
+            // leds to be implemented further
+            
             continue;
             }
     }
+}
+
+
+// complementray functions
+fn delay(time:u16) {
+    const K: u16 = 17_u16; // this value needs to be tweaked
+    for _ in 0..(K * time) {
+        aux11::nop()
+        }
 }
 
