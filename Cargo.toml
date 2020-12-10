@@ -5,8 +5,7 @@ name = "usart"
 version = "0.1.0"
 
 [dependencies]
-nmea0183 = "0.2.3"
-embedded-hal = "0.2.4"
+#nmea = "0.0.7"
 
 [dependencies.aux11]
 path = "auxiliary"

@@ -14,6 +14,9 @@ pub use stm32f3xx_hal::{pac::usart1, prelude::*, serial::Serial, time::MonoTimer
 pub use stm32f3xx_hal::pac::{gpiob, rcc};
 use stm32f3xx_hal::pac::{GPIOE, RCC};
 
+//imports for timer
+pub use stm32f3xx_hal::timer;
+
 
 pub fn init() -> (&'static mut usart1::RegisterBlock, MonoTimer, ITM, Delay, &'static gpiob::RegisterBlock, &'static rcc::RegisterBlock) {
     let cp = cortex_m::Peripherals::take().unwrap();
@@ -26,9 +29,6 @@ pub fn init() -> (&'static mut usart1::RegisterBlock, MonoTimer, ITM, Delay, &'s
 
     // new delay and leds instance to confirm and operate
     let delay = Delay::new(cp.SYST, clocks);
-    //let leds = Leds::new(dp.GPIOE.split(&mut rcc.ahb));
-    //let mut gpioe = dp.GPIOE.split(&mut rcc.ahb);
-    //let pe8 = gpioe.pe8.into_push_pull_output(&mut gpioe.moder, &mut gpioe.otyper);
     let (tx, rx) = match () {
         #[cfg(feature = "adapter")]
         () => {
