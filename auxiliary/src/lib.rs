@@ -14,9 +14,6 @@ pub use stm32f3xx_hal::{pac::usart1, prelude::*, serial::Serial, time::MonoTimer
 pub use stm32f3xx_hal::pac::{gpiob, rcc};
 use stm32f3xx_hal::pac::{GPIOE, RCC};
 
-//imports for timer
-pub use stm32f3xx_hal::timer;
-
 
 pub fn init() -> (&'static mut usart1::RegisterBlock, MonoTimer, ITM, Delay, &'static gpiob::RegisterBlock, &'static rcc::RegisterBlock) {
     let cp = cortex_m::Peripherals::take().unwrap();

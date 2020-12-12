@@ -4,9 +4,6 @@ edition = "2018"
 name = "usart"
 version = "0.1.0"
 
-[dependencies]
-#nmea = "0.0.7"
-
 [dependencies.aux11]
 path = "auxiliary"
 cortex-m = "0.6.3"
